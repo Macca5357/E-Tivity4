@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".MainActivity">
@@ -15,5 +16,34 @@
         android:layout_height="wrap_content"
         android:foregroundGravity="center"
         android:gravity="center"
-        android:text="TextView" />
+        android:text="@string/app_name"
+        android:textColor="@color/color_black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonStartServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="@string/start_services"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonStopServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:text="@string/stop_services"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
 </LinearLayout>
