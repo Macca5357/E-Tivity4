@@ -17,7 +17,7 @@ public class MusicService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        mediaPlayer = MediaPlayer.create(this, R.raw.song); // replace "song" with your audio file name
+        mediaPlayer = MediaPlayer.create(this, R.raw.song);
     }
 
     @Override

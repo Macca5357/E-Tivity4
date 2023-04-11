@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">MusicService</string>
+    <string name="app_name">MusicService and Gyroscope Sensor</string>
     <string name="start_services">Start Service</string>
     <string name="stop_services">Stop Service</string>
+    <string name="services">Music Services</string>
+    <string name="Sensor">Gyroscope Sensor</string>
 
 </resources>
